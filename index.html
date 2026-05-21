@@ -44,19 +44,19 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#products">Products</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
 
@@ -87,44 +87,69 @@
     <!-- Features -->
     <section class="features py-5">
       <div class="container">
+        <div class="section-title" id="services">
+          <h2>Services</h2>
+          <p>Helpful flower shop services made for every special moment.</p>
+        </div>
+
         <div class="row g-4">
-          <div class="col-md-3">
-            <div class="feature-box">
-              <i class="bi bi-truck"></i>
-              <h5>Free Delivery</h5>
-              <p>Fast delivery for all orders.</p>
-            </div>
+          <div class="col-md-3 d-flex">
+            <article class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-truck"></i>
+              </div>
+
+              <div class="feature-content">
+                <h5>Free Delivery</h5>
+                <p>Fast delivery for all orders.</p>
+              </div>
+            </article>
           </div>
 
-          <div class="col-md-3">
-            <div class="feature-box">
-              <i class="bi bi-flower1"></i>
-              <h5>Fresh Flowers</h5>
-              <p>Premium flowers sourced daily.</p>
-            </div>
+          <div class="col-md-3 d-flex">
+            <article class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-flower1"></i>
+              </div>
+
+              <div class="feature-content">
+                <h5>Fresh Flowers</h5>
+                <p>Premium flowers sourced daily.</p>
+              </div>
+            </article>
           </div>
 
-          <div class="col-md-3">
-            <div class="feature-box">
-              <i class="bi bi-credit-card"></i>
-              <h5>Secure Payment</h5>
-              <p>100% safe checkout process.</p>
-            </div>
+          <div class="col-md-3 d-flex">
+            <article class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-credit-card"></i>
+              </div>
+
+              <div class="feature-content">
+                <h5>Secure Payment</h5>
+                <p>100% safe checkout process.</p>
+              </div>
+            </article>
           </div>
 
-          <div class="col-md-3">
-            <div class="feature-box">
-              <i class="bi bi-headset"></i>
-              <h5>24/7 Support</h5>
-              <p>Friendly customer support.</p>
-            </div>
+          <div class="col-md-3 d-flex">
+            <article class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-headset"></i>
+              </div>
+
+              <div class="feature-content">
+                <h5>24/7 Support</h5>
+                <p>Friendly customer support.</p>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Products -->
-    <section class="products">
+    <section class="products" id="products">
       <div class="container">
         <div class="section-title">
           <h2>New Products</h2>
@@ -134,44 +159,52 @@
         <div class="row g-4">
           <div class="col-lg-3 col-md-6">
             <div class="product-card">
-              <img src="images/products/product-1.jpg" alt="" />
+              <div class="product-img">
+                <img src="images/products/product-1.jpg" alt="" />
+              </div>
 
               <div class="product-content">
                 <h5>Pink Roses</h5>
-                <p>$29.00</p>
+                <p class="price">$29.00</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="product-card">
-              <img src="images/products/product-2.jpg" alt="" />
+              <div class="product-img">
+                <img src="images/products/product-2.jpg" alt="" />
+              </div>
 
               <div class="product-content">
                 <h5>White Bouquet</h5>
-                <p>$39.00</p>
+                <p class="price">$39.00</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="product-card">
-              <img src="images/products/product-3.jpg" alt="" />
+              <div class="product-img">
+                <img src="images/products/product-3.jpg" alt="" />
+              </div>
 
               <div class="product-content">
                 <h5>Spring Tulips</h5>
-                <p>$22.00</p>
+                <p class="price">$22.00</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="product-card">
-              <img src="images/products/product-4.jpg" alt="" />
+              <div class="product-img">
+                <img src="images/products/product-4.jpg" alt="" />
+              </div>
 
               <div class="product-content">
                 <h5>Lavender Vase</h5>
-                <p>$31.00</p>
+                <p class="price">$31.00</p>
               </div>
             </div>
           </div>
@@ -191,7 +224,7 @@
             />
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 banner-content">
             <h2>Surprise Your Loved One</h2>
 
             <p>Beautiful handcrafted flower arrangements designed with love.</p>
@@ -204,36 +237,207 @@
         </div>
       </div>
     </section>
+    <!-- Team -->
+    <section class="team">
+      <div class="container">
+        <div class="section-title">
+          <h2>Flower Experts</h2>
+          <p>
+            Meet our talented florists and creative designers behind every
+            beautiful bouquet.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="team-card">
+              <img src="images/team/Team-meber-01.jpg" alt="team" />
+              <h5>Nadee Tharanga</h5>
+              <p>Lead Florist</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="team-card">
+              <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="team"
+              />
+              <h5>Sarah Wilson</h5>
+              <p>Designer</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="team-card">
+              <img
+                src="https://randomuser.me/api/portraits/women/68.jpg"
+                alt="team"
+              />
+              <h5>Emily Brown</h5>
+              <p>Flower Artist</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="team-card">
+              <img
+                src="https://randomuser.me/api/portraits/women/50.jpg"
+                alt="team"
+              />
+              <h5>Anna Smith</h5>
+              <p>Creative Head</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="section-title">
+          <h2>From Our Blog</h2>
+          <p>
+            Latest flower styling tips, bouquet trends, and floral inspiration
+            from our team.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="blog-card">
+              <img
+                src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?q=80&w=1974&auto=format&fit=crop"
+                alt="blog"
+              />
+              <div class="blog-content">
+                <h5>Top 10 Spring Flower Trends</h5>
+                <p>
+                  Discover the latest floral arrangements and bouquet styles for
+                  this season.
+                </p>
+                <a href="#" class="text-danger fw-semibold">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="blog-card">
+              <img
+                src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=1974&auto=format&fit=crop"
+                alt="blog"
+              />
+              <div class="blog-content">
+                <h5>How To Keep Flowers Fresh</h5>
+                <p>
+                  Simple expert tips to make your flower bouquets stay fresh for
+                  longer.
+                </p>
+                <a href="#" class="text-danger fw-semibold">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="blog-card">
+              <img
+                src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1974&auto=format&fit=crop"
+                alt="blog"
+              />
+              <div class="blog-content">
+                <h5>Best Flowers For Gifts</h5>
+                <p>
+                  Learn which flowers perfectly match birthdays, weddings, and
+                  celebrations.
+                </p>
+                <a href="#" class="text-danger fw-semibold">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="contact">
+      <div class="container">
+        <h2>Join The Colorful Bunch!</h2>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" />
+          <button class="main-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer>
       <div class="container">
-        <div class="row">
+        <div class="row g-5">
           <div class="col-lg-4">
-            <h3>Bloomy</h3>
+            <h3 class="text-white mb-3">Bloomy</h3>
 
-            <p>Beautiful handcrafted flower arrangements made with love.</p>
+            <p>
+              Beautiful handcrafted flower arrangements made with love for every
+              special moment.
+            </p>
+
+            <div class="social-icons mt-4">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
           </div>
 
-          <div class="col-lg-2">
+          <div class="col-lg-2 col-md-6">
             <h5>Information</h5>
 
             <ul>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Delivery</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-2">
+          <div class="col-lg-2 col-md-6">
             <h5>Account</h5>
 
             <ul>
               <li><a href="#">My Account</a></li>
               <li><a href="#">Wishlist</a></li>
               <li><a href="#">Orders</a></li>
+              <li><a href="#">Returns</a></li>
             </ul>
           </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5>Help</h5>
+
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Track Order</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5>Customer Service</h5>
+
+            <ul>
+              <li><a href="#">Store Location</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Special Offers</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2026 Bloomy. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
