@@ -83,12 +83,18 @@ a{
     background:#e74c3c;
 }
 
+.features .row > div{
+    display:flex;
+}
+
 .feature-box{
     background:#fff;
     padding:30px;
     border-radius:15px;
     text-align:center;
     box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    width:100%;
+    height:100%;
 }
 
 .feature-box i{
